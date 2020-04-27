@@ -1,0 +1,74 @@
+/*.fitur {
+            background-color: red;
+        }*/
+  /*install fonts*/
+  @font-face{
+  	font-family: abrilfat;
+  	src: url('../fonts/AbrilFatface-Regular.ttf');
+  }      
+  body {
+	margin: 0;
+  }
+
+  	
+  .container {
+  	width: 70%;
+  	overflow: hidden;
+  	margin: auto;
+  }
+
+  .header {
+  	width: 100%;
+  	overflow: hidden;
+  	background: linear-gradient(rgb(32,9,88),rgb(8,58,84));
+  	height: 550px 
+  	/*padding-left : 50px;
+  	margin-bottom: 50px;*/
+  }
+
+  .header .logo{
+  	font-size: 32px;
+  	float: left;
+  	font-family: Playball;
+  	color: #fff;
+  }
+
+  .header .navigation{
+  	float: right;
+  	margin-top: 40px;
+  }
+
+  .header .navigation li {
+	float: right;
+	margin-left: 20px;
+	font-size: 18px;
+	display: block;
+
+  }
+
+  .header .navigation li a {
+  	color: white;
+  	text-decoration: none;
+  	/*font-family: Arial, Helvetica, Sans-serif;*/
+  	font-family: Playball;
+  }
+
+  .header .navigation li a:hover{
+	color: blue;
+	text-decoration: underline;
+  }
+
+  .icon-kelas{
+  	background-color: green;
+  	background-image: url('../images/1.jpg');
+  	background-size: cover;
+  	width: 250px;
+  	height: 250px;
+  	border-radius: 50%;
+
+  }
+
+  .parent{
+  	margin-top: 30px;
+
+  }
